@@ -1,0 +1,7 @@
+os:
+- linux
+- linux-ppc64le
+- linux-s390x
+
+script:
+- uname -a
