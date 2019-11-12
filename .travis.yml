@@ -1,8 +1,9 @@
-os:
-- linux
-- linux-ppc64le
-- linux-s390x
-- linux-s390
-
+os: linux
+arch:
+  - ppc64le
+  - s390x
+  - x86
+  - amd64
+  
 script:
 - uname -a
